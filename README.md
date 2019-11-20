@@ -1,6 +1,6 @@
 ## Welcome to GitHub Pages
 
-[Код](https://github.com/Elizasuschenko/demo/edit/master/src)
-[Ссылка на страницу ](https://github.com/Elizasuschenko/demo/edit/build/) 
+[РљРѕРґ](https://github.com/Elizasuschenko/demo/edit/master/src)
+[РЎСЃС‹Р»РєР° РЅР° СЃС‚СЂР°РЅРёС†Сѓ ](https://elizasuschenko.github.io/rademade.spodynska/build/) 
 
-На верстку ушло окло 4-5-ти часов. Первый раз работала с pug и gulp. Разбор их во время не включала.
+РќР° РІРµСЂСЃС‚РєСѓ СѓС€Р»Рѕ РѕРєР»Рѕ 4-5-С‚Рё С‡Р°СЃРѕРІ. РџРµСЂРІС‹Р№ СЂР°Р· СЂР°Р±РѕС‚Р°Р»Р° СЃ pug Рё gulp. Р Р°Р·Р±РѕСЂ РёС… РІРѕ РІСЂРµРјСЏ РЅРµ РІРєР»СЋС‡Р°Р»Р°.
