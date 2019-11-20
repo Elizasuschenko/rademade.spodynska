@@ -1,0 +1,22 @@
+mixin listItem(text, link, date, type, className )
+	div(hidden=false class="list_item" class=className)
+		div(class="list_item-menu")
+			img(src="./img/item-menu.png" class="list_item-menu_img")
+			ul(class="item-menu")
+				each val in ['Menu 1', 'Menu 2', 'Menu 3']
+					li(class="item-menu-element")= val
+		div(class="list_item-header")
+			span(class="type")= type
+			span(class="date")= date
+		div(class="list_item-content")
+			a(class="list_item-link" href="#")= link
+			p(class="list_item-text")= text	
+
+
+div(class="list")
+	+listItem("Secondary notification content; requirements: might include various info in few lines that can be highlighted inline", 'Primary notification content (clickable)', 'Today, 10:42 AM', 'Type 1', 'list_item-active' )
+	+listItem("Secondary notification content; requirements: might include various info in few lines that can be highlighted inline", 'Primary notification content (clickable)', 'Today, 10:42 AM', 'Type 1', 'list_item-active' )
+	+listItem("Secondary notification content", 'Primary notification content (clickable)', 'Today, 10:42 AM', 'Type 2', '' )
+	+listItem("Secondary notification content", 'Primary notification content (clickable)', 'Today, 10:42 AM', 'Type 2', '' )
+	+listItem("Secondary notification content", 'Primary notification content (clickable)', 'Today, 10:42 AM', 'Type 2', '' )
+	

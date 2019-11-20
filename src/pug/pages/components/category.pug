@@ -1,0 +1,10 @@
+mixin item(text, className, srcImg )
+    li(class="category_item display-block" class=className) 
+        img(src=srcImg class="category-item_picture")
+        span= text
+
+ul(class="category")
+    +item('All Categories', '', './img/category.png' )
+    +item('Category 1', '', './img/category.png' )
+    +item('Category 2', 'category_item-active ', './img/categoty_active.png' )
+    +item('Category 3', '', './img/category.png' )

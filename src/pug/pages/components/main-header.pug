@@ -1,0 +1,8 @@
+div(class="main-header_container container display-block")
+    h1(class="main-title") Notifications
+    div(class="filter")
+        p(class="filter-text") View: 
+            span(class="filter-value") All types 
+        ul(class="filter-list" hidden)
+            each val in ['All types', 'Type 1', 'Type 2']
+                li(class="filter_item")= val
